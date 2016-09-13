@@ -1,0 +1,45 @@
+/* Put your css in here */
+
+body,
+a,
+div,
+p,
+i,
+span {
+	margin: 0;
+	padding: 0
+}
+
+/*Common*/
+
+.container {
+	margin: 0 auto;
+	width: 1600px;
+	overflow: hidden;
+	padding-top: 10%;
+}
+
+/*End common */
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 638px) {
+	.container {
+		width: 100%;
+	}
+}
+@media screen and (min-width: 639px) {
+	.container {
+		width: 80%;
+	}
+}
+@media screen and (min-width: 1025px) {}
+
+/*Mobile Landscape*/
+
+@media only screen and (max-device-width: 569px) and (min-device-width: 320px) and (orientation: landscape) {}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}
+
+/**/

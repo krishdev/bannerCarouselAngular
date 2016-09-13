@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainApp">
+
+<head>
+	<title> Example Banner Carousel</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="../extensions/animation.css">
+	<link rel="stylesheet" href="../extensions/bannerCarousel.css">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js">	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="../extensions/bannerCarousel.js"></script>
+</head>
+
+<body ng-controller="mainCtrl as mCtrl">
+	<div class="container">
+		<slide-through banner="mCtrl.bannerContents" button='mCtrl.bannerSettings.button' animate="mCtrl.bannerSettings.animate" delay="mCtrl.bannerSettings.delayTime" items="mCtrl.bannerSettings.slidesToShow">
+
+		</slide-through>
+	</div>
+	<script src="scripts.js" type="text/javascript"></script>
+</body>
+
+</html>
