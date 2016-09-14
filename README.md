@@ -16,6 +16,7 @@
   ```html
   <head>
     <link rel=”stylesheet” href=”http://krishdev.com/openSource/custom-banner-angular/bannerCarousel.css”>
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css”>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.5.6/angular-material.min.js"></script>
     <script src=”http://krishdev.com/openSource/custom-banner-angular/bannerCarousel.js”></script>
