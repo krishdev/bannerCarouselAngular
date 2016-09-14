@@ -40,7 +40,7 @@ items |	String number of images to show per slide – 1 to 3 - default 1
 
 
 ## License
-Animate.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)
+Custom Banner Carousel - Angular is licensed under the MIT license. (http://opensource.org/licenses/MIT)
 
 ## Contribution
 Encourage improvements over Custom Banner Carousel. Would like to see the work on plunker before requesting a merge. Naming convensions should be camelCase.
