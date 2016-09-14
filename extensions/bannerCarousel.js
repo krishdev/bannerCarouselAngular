@@ -1,3 +1,10 @@
+/**
+ * Angular Custom Banner Carousel
+ * (c) 2016 Krishnakumar Rajendran
+ * license: MIT 
+ * github: https://github.com/krishdev/bannerCarouselAngular
+ */
+
 (function () {
 	'use strict';
 	var bannerApp = angular.module('bannerApp', []);
