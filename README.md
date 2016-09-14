@@ -1,5 +1,4 @@
-# bannerCarouselAngular
-
+Angular Custom Banner Carousel
  Dependencies:
 1.	js
 a.	jQuery
@@ -15,8 +14,7 @@ Add the dependencies
 <script src=”http://krishdev.com/openSource/custom-banner-angular/bannerCarousel.js”></script>
 Add the element
 <slide-through></slide-through>
-
-Attributes:
+Attributes-
 Banner:	String / Array scope array that contains images
 Button:	Boolean scope
 Animate:	String name of the class in animate.css
